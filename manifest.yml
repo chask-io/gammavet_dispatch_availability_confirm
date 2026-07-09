@@ -1,0 +1,34 @@
+function:
+  name: GammavetDispatchAvailabilityConfirmFn
+  runtime: python3.12
+  handler: handler.lambda_handler
+  description: |
+    Selecciona todos los conductores activos, no pausados y no archivados de
+    Gammavet que aun no confirmaron ni recibieron prompt de disponibilidad hoy.
+    Se usa en el batch diario fijo de las 11:30 America/Santiago para alimentar
+    EnviarLoteWhatsappFn con la plantilla conductores_inicio_jornada.
+  timeout: 120
+  memory_size: 256
+
+  layers:
+    - foundationMinimal
+    - foundationApi
+
+  parameters:
+    required: []
+    optional:
+      - name: now_iso
+        type: string
+        description: Fecha/hora ISO opcional para pruebas; si falta se usa America/Santiago actual.
+      - name: test_drivers_json
+        type: string
+        description: Lista JSON opcional de conductores para pruebas de suite sin leer Tenant API.
+
+  widget:
+    enabled: false
+    type: dynamic_widget
+    params: []
+
+  testing:
+    handles_files: false
+    produces_files: false

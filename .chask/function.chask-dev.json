@@ -1,0 +1,8 @@
+{
+	"function_uuid": "2dd5f033-f3c6-4c65-a5b7-597c6f33778c",
+	"organization_id": "c186a320-7f84-4004-b591-1b9880fb7bfd",
+	"last_published_at": "2026-07-10T15:54:24.884Z",
+	"function_arn": "arn:aws:lambda:us-east-1:138871434756:function:GammavetDispatchAvailabilityConfirmFn-a5b7597c6f33778c",
+	"function_name": "GammavetDispatchAvailabilityConfirmFn",
+	"git_ref": "main"
+}

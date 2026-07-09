@@ -1,0 +1,17 @@
+{
+  "function_name": "GammavetDispatchAvailabilityConfirmFn",
+  "test_type": "provided_params",
+  "args": {
+    "now_iso": "2026-07-09T11:30:00-04:00",
+    "test_drivers_json": "[]"
+  },
+  "widget_params": {},
+  "prompt": "",
+  "event_type": "function_call",
+  "extra_params": {},
+  "files": [],
+  "metadata": {
+    "description": "No-op scheduler suite test with injected empty driver list",
+    "expected_status": "success"
+  }
+}

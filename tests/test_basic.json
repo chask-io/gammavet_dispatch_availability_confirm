@@ -1,0 +1,16 @@
+{
+  "function_name": "GammavetDispatchAvailabilityConfirmFn",
+  "args": {
+    "now_iso": "2026-07-09T11:30:00-04:00",
+    "test_drivers_json": "[]"
+  },
+  "widget_params": {},
+  "prompt": "",
+  "event_type": "function_call",
+  "extra_params": {},
+  "files": [],
+  "metadata": {
+    "description": "Basic test for GammavetDispatchAvailabilityConfirmFn",
+    "expected_status": "success"
+  }
+}

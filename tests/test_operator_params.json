@@ -1,0 +1,16 @@
+{
+  "function_name": "GammavetDispatchAvailabilityConfirmFn",
+  "test_type": "operator_params",
+  "args": {},
+  "widget_params": {},
+  "prompt": "Ejecuta el despachador diario de confirmacion de disponibilidad de Gammavet para el batch fijo de las 11:30.",
+  "event_type": "function_call",
+  "extra_params": {
+    "is_operator_params_test": true
+  },
+  "files": [],
+  "metadata": {
+    "description": "Operator should not invent driver data for scheduler execution",
+    "expected_status": "success"
+  }
+}
